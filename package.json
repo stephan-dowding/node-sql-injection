@@ -1,0 +1,19 @@
+{
+  "name": "sql-injection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephan-dowding/node-sql-injection.git"
+  },
+  "author": "Stephan Dowding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stephan-dowding/node-sql-injection/issues"
+  },
+  "homepage": "https://github.com/stephan-dowding/node-sql-injection#readme"
+}
