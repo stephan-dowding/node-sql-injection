@@ -13,5 +13,5 @@ export const init = async () => {
 }
 
 export const userValid = async (username, password) => {
-  return await db.get("SELECT username FROM users WHERE username = '" + username + "' AND password = '" + password  + "';");
+  return await db.get(`SELECT username FROM users WHERE username = '${username}' AND password = '${password}';`);
 }

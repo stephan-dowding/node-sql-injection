@@ -1,0 +1,14 @@
+html
+  head
+    title Injection
+  body
+    h1 Please log in!
+    form(method='POST' action='/login')
+      p
+        label(for='username') Username
+        input(type='text' id='username' placeholder='username' name='username')
+      p
+        label(for='username') Password
+        input(type='text' id='password' placeholder='password' name='password')
+      button(type='submit') Log in
+        
